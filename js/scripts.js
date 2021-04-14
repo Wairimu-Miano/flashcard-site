@@ -1,5 +1,10 @@
 $(document).ready(function(){
+  var terms=["JavaScript","Variables","Operators","Functions","Strings","Booleans","Comments"]
+  terms.forEach(function(term){
+    var wordDefinition=
+    $()
+  })
   $(".word").click(function(){
-    $(".definition").slideToggle("slow")
+    $("#def1").slideToggle("slow")
   });
 });
